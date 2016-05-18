@@ -1,0 +1,28 @@
+{
+  "name": "bebop",
+  "version": "1.0.0",
+  "description": "Controll Parrot Bebop Drone from NodeJs",
+  "main": "index.js",
+  "dependencies": {
+    "node-bebop": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexchaconvargas/bebop.git"
+  },
+  "keywords": [
+    "bebop",
+    "parrot",
+    "drone"
+  ],
+  "author": "Alex Chacón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexchaconvargas/bebop/issues"
+  },
+  "homepage": "https://github.com/alexchaconvargas/bebop#readme"
+}
