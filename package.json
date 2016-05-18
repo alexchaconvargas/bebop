@@ -4,6 +4,7 @@
   "description": "Controll Parrot Bebop Drone from NodeJs",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.13.4",
     "node-bebop": "^0.6.0"
   },
   "devDependencies": {},
