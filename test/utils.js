@@ -1,8 +1,6 @@
 'use strict';
 
-
 //  Modified from https://github.com/elliotf/mocha-mongoose
-
 
 var config = require('../config/config');
 var mongoose = require('mongoose');

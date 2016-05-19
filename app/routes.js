@@ -1,4 +1,4 @@
-// app/routes.js
+var path = require('path');
 
 // load the todo model
 var Todo = require('./models/todo');
@@ -61,6 +61,10 @@ module.exports = function(app) {
     // application -------------------------------------------------------------
     app.get('/', function(req, res) {
         res.sendFile('../public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    });
+
+    app.get('/actions', function(req, res) {
+        res.sendFile( 'actions.html',  { root: path.join(__dirname, '../public') });
     });
 
     app.get('/abc', function(req, res) {
